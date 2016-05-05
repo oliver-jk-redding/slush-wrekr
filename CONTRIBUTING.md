@@ -1,4 +1,4 @@
-# Contributing to pages-rkw
+# Contributing to wrekr
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -93,11 +93,11 @@ project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/slush-pages-rkw
+   git clone https://github.com/<your-username>/slush-wrekr
    # Navigate to the newly cloned directory
-   cd slush-pages-rkw
+   cd slush-wrekr
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/oliver-jk-redding/slush-pages-rkw
+   git remote add upstream https://github.com/oliver-jk-redding/slush-wrekr
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

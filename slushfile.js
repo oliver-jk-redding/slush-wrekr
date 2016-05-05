@@ -1,6 +1,6 @@
 /*
- * slush-pages-rkw
- * https://github.com/oliver-jk-redding/slush-pages-rkw
+ * slush-wrekr
+ * https://github.com/oliver-jk-redding/slush-wrekr
  *
  * Copyright (c) 2016, oliver-jk-redding
  * Licensed under the MIT license.

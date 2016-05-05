@@ -1,14 +1,14 @@
-# Slush Pages-rkw [![Build Status](https://secure.travis-ci.org/oliver-jk-redding/slush-pages-rkw.png?branch=master)](https://travis-ci.org/oliver-jk-redding/slush-pages-rkw) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-pages-rkw.png)](http://badges.enytc.com/for/npm/slush-pages-rkw)
+# Slush wrekr [![Build Status](https://secure.travis-ci.org/oliver-jk-redding/slush-wrekr.png?branch=master)](https://travis-ci.org/oliver-jk-redding/slush-wrekr) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-wrekr.png)](http://badges.enytc.com/for/npm/slush-wrekr)
 
 > A slush generator to scaffold building with webpack, react, express, knex and redux
 
 
 ## Getting Started
 
-Install `slush-pages-rkw` globally:
+Install `slush-wrekr` globally:
 
 ```bash
-$ npm install -g slush-pages-rkw
+$ npm install -g slush-wrekr
 ```
 
 ### Usage
@@ -16,13 +16,13 @@ $ npm install -g slush-pages-rkw
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-pages-rkw
+$ mkdir my-slush-wrekr
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-pages-rkw && slush pages-rkw
+$ cd my-slush-wrekr && slush wrekr
 ```
 
 ## Getting To Know Slush
@@ -35,10 +35,10 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/oliver-jk-redding/slush-pages-rkw/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/oliver-jk-redding/slush-wrekr/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/oliver-jk-redding/slush-pages-rkw/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/oliver-jk-redding/slush-wrekr/issues).
 
 ## License
 
