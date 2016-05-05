@@ -1,26 +1,30 @@
 var webpack = require('webpack');
-var path = require('path')
+
+function getEntrySources(sources) {
+    if (process.env.NODE_ENV !== 'production') {
+        sources.push('webpack-dev-server/client?http://localhost:8080');
+        sources.push('webpack/hot/only-dev-server');
+    }
+    return sources;
+}
 
 module.exports = {
-  entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
-    './index.js'
-  ],
+  entry: {
+    app: getEntrySources([
+      './src/index.js'
+    ])
+  },
   module: {
     loaders: [
       { test: /\.css$/,
         loader: 'style!css' },
       { test: /\.scss?$/,
-        include: path.join(__dirname, 'css'),
         loader: 'style!css!sass' },
       { test: /\.jsx?$/,
         exclude: /node_modules/,
-        include: path.join(__dirname, '/'),
         loader: 'react-hot!babel' },
       { test: /\.js?$/,
         exclude: /node_modules/,
-        include: path.join(__dirname, '/'),
         loader: 'react-hot!babel' }
     ]
   },

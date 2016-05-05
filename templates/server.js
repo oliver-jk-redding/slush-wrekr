@@ -1,36 +1,22 @@
-"use strict";
-
-var webpack = require('webpack');
-var WebpackDevServer = require('webpack-dev-server');
-var config = require('./make-webpack-config')('dev');
-
 var express = require('express');
-var proxy = require('proxy-middleware');
-var url = require('url');
-
-// -------------------proxy----------------------
+var favicon = require('serve-favicon');
+var logger = require('morgan');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
 
 var app = express();
-// proxy the request for static assets
-app.use('/assets', proxy(url.parse('http://localhost:8081/assets')));
 
-app.get('/*', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
+// uncomment after placing your favicon in /public
+//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, '/public')));
+
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/public/index.html');
 });
 
-
-// ----------------webpack-dev-server------------------
-
-var server = new WebpackDevServer(webpack(config), {
-    contentBase: __dirname,
-    hot: true,
-    quiet: false,
-    noInfo: false,
-    publicPath: "/assets/",
-
-    stats: { colors: true }
-});
-
-// run the two servers
-server.listen(8081, "localhost", function() {});
-app.listen(8080);
+module.exports = app;
