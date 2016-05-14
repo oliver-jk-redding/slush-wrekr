@@ -59,7 +59,7 @@ An alternative development mode is to run the 'start' script followed by:
 $ npm run watch
 ```
 
-This allows you to develop on localhost:3000 with automatic bundling but you will have to manually refresh the browser. It is preferrable to ignore this command and develop using the webpack dev server on port 8080.
+This allows you to develop on localhost:3000 with automatic bundling but you will have to manually refresh the browser. **It is preferrable to ignore this command and develop using the webpack dev server on port 8080 by running the 'dev' script instead.**
 
 #### In production
 
