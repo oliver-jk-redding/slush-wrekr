@@ -17,12 +17,3 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
-
-# Environment files
-.env
-
-#Database
-database/dev.sqlite3
-
-# Bundles
-public/bundle.*

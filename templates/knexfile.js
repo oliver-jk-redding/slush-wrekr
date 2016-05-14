@@ -1,11 +1,20 @@
 // Update with your config settings.
 
 module.exports = {
-
   development: {
     client: 'sqlite3',
     connection: {
-      filename: __dirname + '/dev.sqlite3'
+      filename: __dirname + '/database/dev.sqlite3'
+    },
+    pool: {
+      min: 1,
+      max: 1
+    },
+    migrations: {
+      directory: 'database/migrations'
+    },
+    seeds: {
+      directory: 'database/seeds'
     }
   },
 
@@ -21,7 +30,10 @@ module.exports = {
       max: 10
     },
     migrations: {
-      tableName: 'knex_migrations'
+      directory: 'database/migrations'
+    },
+    seeds: {
+      directory: 'database/seeds'
     }
   },
 
@@ -33,7 +45,10 @@ module.exports = {
       max: 10
     },
     migrations: {
-      tableName: 'knex_migrations'
+      directory: 'database/migrations'
+    },
+    seeds: {
+      directory: 'database/seeds'
     }
   }
 

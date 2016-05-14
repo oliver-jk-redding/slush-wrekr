@@ -1,40 +1,40 @@
 {
-    "name": "slush-wrekr",
-    "description": "A slush generator to scaffold building with webpack, react, knex, express and redux",
-    "version": "0.1.0",
-    "homepage": "https://github.com/oliver-jk-redding/slush-wrekr",
-    "author": {
-        "name": "oliver-jk-redding",
-        "email": "oliver.jk.redding@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/oliver-jk-redding/slush-wrekr.git"
-    },
-    "bugs": {
-        "url": "https://github.com/oliver-jk-redding/slush-wrekr/issues"
-    },
-    "license": "MIT",
-    "main": "slushfile.js",
-    "engines": {
-        "node": ">= 0.10.26",
-        "npm": ">=1.4.3"
-    },
-    "scripts": {
-        "test": "echo \"No tests\""
-    },
-    "dependencies": {
-        "slush": ">=1.0.0",
-        "gulp": "^3.6.2",
-        "gulp-template": "^0.1.1",
-        "gulp-install": "^0.1.4",
-        "gulp-conflict": "^0.1.1",
-        "gulp-rename": "^1.2.0",
-        "underscore.string": "^2.3.3",
-        "inquirer": "^0.8.0",
-        "iniparser": "^1.0.5"
-    },
-    "keywords": [
-        "slushgenerator"
-    ]
+  "name": "slush-wrekr",
+  "description": "A slush generator to scaffold building with webpack, react, knex, express and redux",
+  "version": "0.1.0",
+  "homepage": "https://github.com/oliver-jk-redding/slush-wrekr",
+  "author": {
+    "name": "oliver-jk-redding",
+    "email": "oliver.jk.redding@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oliver-jk-redding/slush-wrekr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oliver-jk-redding/slush-wrekr/issues"
+  },
+  "license": "MIT",
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "gulp": "^3.6.2",
+    "gulp-conflict": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^0.1.1",
+    "iniparser": "^1.0.5",
+    "inquirer": "^0.8.0",
+    "slush": ">=1.0.0",
+    "underscore.string": "^2.3.3"
+  },
+  "keywords": [
+    "slushgenerator"
+  ]
 }

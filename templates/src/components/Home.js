@@ -1,7 +1,10 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 
+import {} from '../utils/index'
+
 class Home extends Component {
+
   render() {
     return (
       <div>
@@ -9,6 +12,7 @@ class Home extends Component {
       </div>
     )
   }
+
 }
 
 function mapStateToProps(state) {
