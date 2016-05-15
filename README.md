@@ -45,7 +45,7 @@ $ npm run start
 
 This sets up the api server on port 3000.
 
-Next run:
+Next run in a new tab:
 
 ```bash
 $ npm run dev
