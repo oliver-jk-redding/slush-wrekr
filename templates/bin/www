@@ -90,7 +90,7 @@ function onListening() {
   debug('Listening on ' + bind)
   console.log(colors.green('\nServer listening on Port %s \n'), port)
   console.log('>>> In development, you should keep this server running in the background and, in another tab, run "npm run dev" and open the browser to localhost:8080. This will allow you to develop your front-end with hot reloading.\n'.bgCyan.black)
-  console.log('>>> If you make any edits to files outside of the "src" folder, you will need to restart this server to see changes. The dev server will only live bundle the front-end files.'.bgCyan.black)
+  console.log('>>> If you make any edits to files outside of the "src" folder, you will need to restart this server to see changes. The dev server will only live bundle the front-end files.\n'.bgCyan.black)
   console.log('>>> Once you have created your migration and seed files, use "npm run database" to create your database. You can run this command again to add changes to your database.\n'.bgCyan.black)
   console.log('>>> In production, you should run "npm run build" to build your bundle file before running "npm run start". You do not need to use the "build" script in development.\n'.bgCyan.black)
 }

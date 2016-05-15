@@ -1,19 +1,29 @@
 # Logs
 logs
+templates/logs
 *.log
+templates/*.log
 npm-debug.log*
+templates/npm-debug.log*
 .DS_store
+templates/.DS_store
 
 # Runtime data
 pids
+templates/pids
 *.pid
+templates/*.pid
 *.seed
+templates/*.seed
 
 # Dependency directory
 node_modules
+templates/node_modules
 
 # Optional npm cache directory
 .npm
+templates/.npm
 
 # Optional REPL history
 .node_repl_history
+templates/.node_repl_history
