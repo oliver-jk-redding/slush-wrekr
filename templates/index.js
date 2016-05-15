@@ -15,7 +15,7 @@ app.use(session({
 
 var indexPath = path.join(__dirname, '/public/index.html')
 var publicPath = express.static(path.join(__dirname, '/public'))
-var api = require('./api/index')
+var api = require('./api/api')
 
 app.use('/public', publicPath)
 app.get('/', function(req,res) {res.sendFile(indexPath)})
