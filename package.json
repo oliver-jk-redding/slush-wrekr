@@ -35,6 +35,18 @@
     "underscore.string": "^2.3.3"
   },
   "keywords": [
-    "slushgenerator"
+    "slushgenerator",
+    "webpack",
+    "react",
+    "redux",
+    "express",
+    "knex",
+    "sqlite",
+    "postgresql",
+    "setup",
+    "scaffold",
+    "boilerplate",
+    "hot reloading",
+    "hot reloads"
   ]
 }
