@@ -24,13 +24,17 @@ $ npm run dev
 
 This sets up the dev server on port 8080. Open your browser to `localhost:8080` to enjoy automatic bundling and hot browser reloads while you develop. Note this only applies to your front-end assets (those in the `src` folder). Any edits to files outside of the `src` folder will require you to restart the api server by running the `start` script again, before those changes will be able to be seen.
 
-An alternative development mode is to run the `start` script followed by:
+***
+
+An **alternative development mode** is to run the `start` script followed by:
 
 ```bash
 $ npm run watch
 ```
 
-This allows you to develop on `localhost:3000` with automatic bundling but you will have to manually refresh the browser. **It is preferrable to ignore this command and develop using the webpack dev server on port 8080 by running the 'dev' script instead.**
+This allows you to develop on `localhost:3000` with automatic bundling but you will have to manually refresh the browser. **It is preferrable to ignore this command and develop using the webpack dev server on port 8080 by running the `dev` script instead.**
+
+***
 
 ### In production
 
