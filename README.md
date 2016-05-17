@@ -5,6 +5,12 @@ A slush generator to scaffold building with webpack, react, express, knex and re
 
 ## Getting Started
 
+If you haven't already, install `slush` globally:
+
+```bash
+$ npm install -g slush
+```
+
 Install `slush-wrekr` globally:
 
 ```bash
