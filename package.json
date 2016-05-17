@@ -1,7 +1,7 @@
 {
   "name": "slush-wrekr",
   "description": "A slush generator to scaffold building with webpack, react, knex, express and redux",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "homepage": "https://github.com/oliver-jk-redding/slush-wrekr",
   "author": {
     "name": "oliver-jk-redding",
